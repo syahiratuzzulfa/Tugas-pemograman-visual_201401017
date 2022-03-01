@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: ACER
- * Date: 01/03/2022
- * Time: 12:37
+ * Date: 28/02/2022
+ * Time: 21:44
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -14,7 +14,10 @@ namespace tugas_1._
 	{
 		public static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Nama kamu siapa?");
+			
+			string nama = Console.ReadLine();
+			Console. WriteLine("Nama kamu "+nama);
 			
 			// TODO: Implement Functionality Here
 			
